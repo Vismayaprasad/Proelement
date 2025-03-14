@@ -248,3 +248,296 @@ nav{
     box-shadow: 5px 4px 3px gray;
 }
 
+.info-box{
+    /* border: 2px solid red; */
+    height: 600px;
+    width: 100%;
+    background-image: url(https://media.licdn.com/dms/image/D4E12AQEEL7USeT5vAQ/article-cover_image-shrink_720_1280/0/1675329619295?e=2147483647&v=beta&t=am9kMKMwi3yU9C8OHYYnBarI0viBDUsi5q4EBkolPwk);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.info-head{
+    /* border: 2px solid white; */
+    margin-top: 150px;
+    height: 100px;
+    padding-top: 30px;
+    padding-left: 10px;
+}
+
+.info-head h1{
+    color: white;
+    font-size: 45px;
+}
+
+.info-head h4{
+    color: #ffc107;
+    font-size: 20px;
+}
+
+.info-content{
+    /* border: 2px solid yellow; */
+    height: 300px;
+    width: 50%;
+    margin-left: 620px;
+    margin-top: 180px;
+}
+
+.info-content p{
+    font-size: 20px;
+    color: white;
+}
+
+.info-btn{
+    /* border: 2px solid white; */
+    height: 50px;
+    width: 120px;
+    border-radius: 8px;
+    font-size: large;
+    border: none;
+    cursor: pointer;
+}
+
+.info-btn:hover{
+   background-color: #aa8ae4;
+}
+
+.element-container{
+    /* border: 2px solid red; */
+    height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    /* background: linear-gradient(60deg, #a6d5ff 0, #f1ebfc); */
+}
+
+.element-header{
+    /* border: 2px solid black; */
+    height: 110px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.element-header h1{
+    font-size: 40px;
+    color: #eb609e;
+}
+
+.element-header p{
+    font-size: 20px;
+}
+.element-body{
+    /* border: 2px solid green; */
+    height: 250px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.element-card{
+    /* border: 2px solid orange; */
+    height: 250px;
+    width: 20%;
+    font-size: 20px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: #005ba9;
+    border-radius: 8px;
+}
+
+.block-container{
+    border: 2px solid red;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: #ffc107;
+}
+
+.product-container{
+    /* border: 2px solid #ff0000; */
+    height: 790px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.product-header{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.product-header p{
+    font-size: 20px;
+}
+
+.product-content{
+    /* border: 2px solid green; */
+    height: 230px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+ 
+.product-card{
+    /* border: 2px solid red; */
+    height: inherit;
+    width: 25%;
+}
+
+.product-card img{
+    height: 100%;
+    width: 100%;
+}
+
+.test-container{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    background-image: url(https://cdn.logojoy.com/wp-content/uploads/20191107132553/Blog_image1-1-1024x594.png);
+}
+
+.test-card1{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 30%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
+    color: #fbbc41;
+}
+
+.test-card1 h1{
+    color: #0a3976;
+}
+.test-card{
+    /* border: 2px solid black; */
+    height: 80%;
+    width: 30%;
+    border-radius: 10px;
+    color: white;
+    background-color: #0a3976;
+    line-height: 35px;
+    padding-left:10px ;
+}
+.footer{
+    /* border: 2px solid red; */
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: rgb(22, 4, 108);
+    color: white;
+}
+
+.footer-header{
+    /* border: 2px solid black; */
+    height: 100px;
+    width: 95%;
+    padding-left: 10px;
+    padding-bottom: 30px;
+}
+
+.footer-btn{
+    font-size: 20px;
+    background-color: #eb609e;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+.footer-content{
+    /* border: 2px solid black; */
+    height: 300px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-card{
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 20%;
+    font-size: 18px;
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-element{
+    /* border: 2px solid yellow; */
+    height: 30%;
+    width: 100%;
+}
+
+.footer-element img{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.footer-card ul{
+    list-style: none;
+    padding-bottom: 100px;
+    line-height: 30px;
+}
+
+.footer-card-i{
+    /* border: 2px solid green; */
+    height: inherit;
+    width: 20%;
+    font-size: 18px;
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-cdn{
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer-icon{
+    /* border: 2px solid red; */
+    height: 20px;
+    width: 20px;
+}
